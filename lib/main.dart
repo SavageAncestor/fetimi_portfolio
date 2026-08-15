@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'core/theme/app_theme.dart';
+import 'features/home/home_screen.dart';
 
 void main() {
   runApp(const FetimiPortfolio());
@@ -15,7 +16,7 @@ class FetimiPortfolio extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Fetimi Timilayemi',
       theme: AppTheme.dark,
-      home: const Scaffold(body: Center(child: Text('Fetimi Portfolio'))),
+      home: const HomeScreen(),
     );
   }
 }
